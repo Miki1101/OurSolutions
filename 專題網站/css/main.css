@@ -1,0 +1,189 @@
+
+header {
+    background-color: rgba(133, 153, 164, 1);
+    height: 100px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+/* banner */
+.banner{
+    height: 330px;
+}
+.bannerimg{
+    height: 330px;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin: -30px 0;
+    position: relative;
+}
+
+/* 引言 */
+.preface{
+    background-color: rgba(97, 105, 120, 1);
+    height: 550px;
+    color: white;
+    font-weight: 500;
+    font-size: 26px;
+    font-family: DFKai-sb;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+.preface01{
+    position: absolute;
+    left: 200px;
+    top: 70px;
+    text-shadow: 0 0 10px #F4F4F4,0 0 20px #F4F4F4;
+} 
+.preface02{
+    position: absolute;
+    left: 270px;
+    top: 130px;
+    text-shadow: 0 0 10px #F4F4F4,0 0 20px #F4F4F4;
+} 
+.preface03{
+    position: absolute;
+    left: 480px;
+    top: 225px;
+    text-shadow: 0 0 10px #F4F4F4,0 0 20px #F4F4F4,0 0 30px #F4F4F4;
+} 
+
+.rule{
+    color: rgb(39, 26, 36);
+    font-size: 22px;
+    white-space: pre;
+    font-family: Microsoft JhengHei;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 50px;
+    top: 380px;
+}
+
+/* 塔羅 */
+.tarot{
+    background-color: rgba(97, 105, 120, 1);
+    height: 400px;
+}
+
+/* 介紹 */
+.productIntroduction{
+    background-color: rgba(97, 105, 120, 1);
+    height: 550px;
+}
+.productPhoto{
+    background: url(../img/tarot-introduction.png) center center no-repeat;
+    background-size: contain;
+    height: 300px;
+    margin-top: 80px;
+}
+.productText{
+    color: rgb(39, 26, 36);
+    font-size: 18px;
+    white-space: pre;
+    font-family: Microsoft JhengHei;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.teamIntroduction{
+    background-color: rgba(97, 105, 120, 1);
+    height: 550px;
+}
+.teamPhoto{
+    background: url(../img/team-introduction.png) center center no-repeat;
+    background-size: contain;
+    height: 300px;
+    margin-top: 80px;
+}
+
+/* 回頂端按鈕 */
+.toTopBtn{
+    display: block;
+    position: fixed;
+    cursor: pointer;
+    right: 30px;
+    bottom: 30px;
+    width: 45px;
+    height: 45px;
+    background: #512F2F;
+    color: #fff;
+    font-size: x-large;
+    z-index: 9999;
+    box-shadow: 3px 3px 10px #3f2424;
+    border-radius: 5px;
+    opacity: 0.5;
+    filter: Alpha(opacity=50);
+    transform: translateY(0%);
+    transition: all 0.2s linear;
+}
+.toTopBtn:hover{
+    opacity: 0.9;
+    filter: Alpha(opacity=90);
+} 
+
+.toTopBtn.hide{
+    opacity: 0;
+    filter: Alpha(opacity=0);
+    transform: translateY(150%);
+}
+
+.toTopBtn i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* footer */
+.footer{
+    background-color: rgba(133, 153, 164, 1);
+    height: 300px;
+    padding: 30px 15px;
+    font-size: 18px;
+}
+
+
+/* 響應式 RWD 
+--------------------------*/
+@media (min-width:1681px) and (max-width:1920px) {
+
+}
+
+@media (min-width:1550px) and (max-width:1680px) {
+
+}
+
+@media (min-width:1300px) and (max-width:1549.9px) {
+
+}
+
+@media (min-width:1200px) and (max-width:1299.9px) {
+
+}
+
+@media (min-width:992px) and (max-width:1199.9px) {
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+}
+
+@media (min-width:576px) and (max-width:767.9px) {
+
+}
+
+@media (min-width:376px) and (max-width:575.9px) {
+
+}
+
+@media (min-width:321px) and (max-width:375.9px) {
+
+}
+
+@media (min-width:0px) and (max-width:321px) {
+
+}
