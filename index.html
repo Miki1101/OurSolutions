@@ -19,26 +19,55 @@
     <script src="https://cdn.bootcss.com/wow/1.1.2/wow.min.js"></script>    
     <script async custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"></script>
     <script src="js/script.js"></script>
-    <title>專題名稱</title>
+    <title>吾解</title>
 </head>
 <body>
     <header>
-        <div id="top" class="logo"><img src="img/logo.png">
+        <!-- <div id="top"></div> -->
+        <div class="menu bg-blue">
+            <nav class="container navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <!-- <li class="nav-item active">
+                    <a class="nav-link" href="#top">首頁 <span class="sr-only">(current)</span></a>
+                    </li> -->
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#about">認識吾解 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            追蹤我們
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Instagram</a>
+                            <a class="dropdown-item" href="#">FaceBook</a>
+                            <a class="dropdown-item" href="#">Line</a>
+                            <a class="dropdown-item" href="#">Youtube</a>
+                            <a class="dropdown-item" href="#">Twitter</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#info">聯絡我們</a>
+                    </li>        
+                </ul>
+                </div>
+            </nav>
         </div>
     </header>
     <main>
         <!-- banner -->
         <div class="owl-carousel owl-theme banner new-inner">
-            <div class="bannerimg">
-                <a href="#">
-                    <img src="img/banner01.png">
-                </a>
-            </div>
-            <div class="bannerimg">
-                <a href="#">
-                    <img src="img/banner02.jpg">
-                </a>
-            </div>
+            <a href="#">
+                <div class="bannerimg01"></div>
+            </a>
+            <a href="#">
+                <div class="bannerimg02"></div>
+            </a>
         </div>
             
         <!-- 引言 -->
@@ -57,7 +86,7 @@
 
         </div>
         <!-- 介紹 -->
-        <div class="productIntroduction">
+        <div id="about" class="productIntroduction">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 wow zoomIn productPhoto" data-wow-offset="300">
@@ -86,10 +115,26 @@
                 </div>
             </div>
         </div>
+        <div class="logoIntroduction">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 wow slideInLeft logoText" data-wow-offset="450" >
+<p>
+Logo的發想來自
+</p>
+                    </div>
+                    <div class="col-md-6 wow zoomIn logoPhoto" data-wow-offset="300">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="teamIntroduction">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 wow slideInUp teamText" data-wow-offset="450" >
+                    <div class="col-md-6 wow zoomIn teamPhoto" data-wow-offset="300">
+                    </div>
+                    <div class="col-md-6 wow slideInRight teamText" data-wow-offset="450" >
 <p>
 "發漏更認識我們，
 不錯過任何資訊!"
@@ -97,9 +142,6 @@
 <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
 <a href="#"><i class="fa-brands fa-instagram"></i></a>
 <a href="#"><i class="fa-brands fa-line"></i></a>
-                    </div>
-                    <div class="col-md-6 wow zoomIn teamPhoto" data-wow-offset="300">
-                        
                     </div>
                 </div>
             </div>
@@ -110,13 +152,14 @@
         </div>
     </main>
     <footer>
-        <div class="footer">
+        <div id="info" class="footer">
             <div class="container">
                 <div class="row">
                     <div class="info">
                         <p>國立聯合大學 文化與數位行銷學系</p>
                         <p>指導教授 | 陳君山</p>
                         <p>學生 | 洪翊瑄 曾苡晴</p>
+                        <p>信箱 | .gmail.com</p>
                         <p>© 2022 by Hong Yi Xuan.</p>
                     </div>
                 </div>

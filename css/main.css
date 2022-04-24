@@ -1,17 +1,37 @@
 
-header {
+.header .nav{
     background-color: rgba(133, 153, 164, 1);
-    height: 100px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
+}
+
+.header .menu{
+    background-color: rgba(133, 153, 164, 1);
+    line-height: 84px;
+    z-index: 9999; 
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+.bg-blue{
+    background-color: rgba(133, 153, 164, 1);
+}
+
+.navbar-brand img{
+    width: 100%;
 }
 
 /* banner */
-.banner{
+ .banner{
     height: 330px;
 }
-.bannerimg{
+.bannerimg01{
+    background: url(../img/banner01.png) center center no-repeat;
+    background-size: cover;
+    height: 330px;
+}
+.bannerimg02{
+    background: url(../img/banner02.jpg) center center no-repeat;
+    background-size: cover;
     height: 330px;
 }
 
@@ -31,22 +51,21 @@ header {
     letter-spacing: 3px;
     position: relative;
 }
-
 .preface01{
     position: absolute;
-    left: 200px;
+    left: 250px;
     top: 70px;
     text-shadow: 0 0 10px #F4F4F4,0 0 20px #F4F4F4;
 } 
 .preface02{
     position: absolute;
-    left: 270px;
+    left: 320px;
     top: 130px;
     text-shadow: 0 0 10px #F4F4F4,0 0 20px #F4F4F4;
 } 
 .preface03{
     position: absolute;
-    left: 480px;
+    right: 300px;
     top: 225px;
     text-shadow: 0 0 10px #F4F4F4,0 0 20px #F4F4F4,0 0 30px #F4F4F4;
 } 
@@ -88,10 +107,35 @@ header {
     text-align: center;
 }
 
+.logoIntroduction{
+    background-color: rgba(97, 105, 120, 1);
+    height: 550px;
+}
+
+.logoText {
+    color: rgb(39, 26, 36);
+    font-size: 26px;
+    white-space: pre;
+    font-family: Microsoft JhengHei;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.logoText p{
+    margin-bottom: 0px;
+}
+
+.logoPhoto{
+    background: url(../img/team-introduction.png) center center no-repeat;
+    background-size: contain;
+    height: 350px;
+    margin-top: 80px;
+}
+
 .teamIntroduction{
     background-color: rgba(97, 105, 120, 1);
     height: 550px;
 }
+
 .teamText {
     color: rgb(39, 26, 36);
     font-size: 26px;
