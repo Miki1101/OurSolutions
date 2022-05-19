@@ -17,7 +17,7 @@
 
 /* banner */
 .banner{
-    background-color: rgba(97, 105, 120, 1);
+    background-color: rgb(116, 123, 136);
     height: 330px;
 }
 
@@ -28,7 +28,7 @@
 
 /* 引言 */
 .preface{
-    background-color: rgba(97, 105, 120, 1);
+    background-color: rgb(116, 123, 136);
     height: 550px;
     color: white;
     font-weight: 500;
@@ -69,13 +69,13 @@
 
 /* 塔羅
 .tarot{
-    background-color: rgba(97, 105, 120, 1);
+    background-color: rgb(116, 123, 136);
     height: 400px;
 } */
 
 /* 介紹 */
 .productIntroduction{
-    background-color: rgba(97, 105, 120, 1);
+    background-color: rgb(116, 123, 136);
     height: 550px;
 }
 .productPhoto{
@@ -94,7 +94,7 @@
 }
 
 .logoIntroduction{
-    background-color: rgba(97, 105, 120, 1);
+    background-color: rgb(116, 123, 136);
     height: 550px;
 }
 
@@ -118,7 +118,7 @@
 }
 
 .packageIntroduction{
-    background-color: rgba(97, 105, 120, 1);
+    background-color: rgb(116, 123, 136);
     height: 550px;
 }
 .packagePhoto{
@@ -141,7 +141,7 @@
 }
 
 .perfumeIntroduction{
-    background-color: rgba(97, 105, 120, 1);
+    background-color: rgb(116, 123, 136);
     height: 550px;
 }
 .perfumePhoto{
@@ -228,28 +228,17 @@
 }
 
 @media (min-width:1200px) and (max-width:1299.9px) {
-
-}
-
-@media (min-width:992px) and (max-width:1199.9px) {
-
-}
-
-@media (min-width:768px) and (max-width:991px) {
-     /* top */
-     .navbar{
-        font-size: 36px;
+    /* top */
+    .navbar{
+        font-size: 34px;
     }
     .navbar .dropdown-item{
-        font-size: 32px;
+        font-size: 30px;
     }
     .navbar-brand img {
         width: 200px;
     }
-    .navbar-toggler {
-        padding: 8px 10px;
-        font-size: 36px;
-    }
+    
     .banner {
         height: 148px;
     }
@@ -260,13 +249,9 @@
     
   
     /* 介紹  */
-    .phone{
-        flex-direction: column-reverse;
-    }
-
     .preface {
         height: 550px;
-        font-size: 32px;
+        font-size: 40px;
     }
     .preface01{
         left: 25px;
@@ -282,43 +267,234 @@
     }
 
     .productIntroduction{
-        height: 1300px;
+        height: 800px;
     }
     .productText{
-        font-size: 30px;
+        font-size: 26px;
     }
     .productPhoto {
         height: 450px;
     }
 
     .logoIntroduction{
-        height: 1300px;
+        height: 800px;
     }
     .logoText{
-        font-size: 30px;
+        font-size: 26px;
     }
     .logoPhoto {
         height: 450px;
     }
 
     .packageIntroduction{
-        height: 1300px;
+        height: 800px;
     }
     .packageText{
-        font-size: 30px;
+        font-size: 26px;
     }
     .packagePhoto {
         height: 450px;
     }
 
     .perfumeIntroduction{
-        height: 1500px;
+        height: 800px;
     }
     .perfumeText{
-        font-size: 30px;
+        font-size: 26px;
     }
     .perfumePhoto {
         height: 450px;
+    }
+
+    /* 回頂端按鈕 */
+    .toTopBtn{
+        width: 70px;
+        height: 70px;
+        font-size: 36px;
+    }
+
+    /* 底部 */
+    .footer{
+        height: 320px;
+        padding: 30px 35px 0;
+        font-size: 24px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199.9px) {
+     /* top */
+     .navbar{
+        font-size: 34px;
+    }
+    .navbar .dropdown-item{
+        font-size: 30px;
+    }
+    .navbar-brand img {
+        width: 200px;
+    }
+    
+    .banner {
+        height: 148px;
+    }
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 3px;
+        position: relative;
+    }
+    
+  
+    /* 介紹  */
+    .preface {
+        height: 550px;
+        font-size: 40px;
+    }
+    .preface01{
+        left: 25px;
+        top: 200px;
+    }
+    .preface02{
+        left: 35px;
+        top: 280px;
+    }
+    .preface03{
+        right: 20px;
+        top: 380px;
+    }
+
+    .productIntroduction{
+        height: 800px;
+    }
+    .productText{
+        font-size: 26px;
+    }
+    .productPhoto {
+        height: 450px;
+    }
+
+    .logoIntroduction{
+        height: 800px;
+    }
+    .logoText{
+        font-size: 26px;
+    }
+    .logoPhoto {
+        height: 450px;
+    }
+
+    .packageIntroduction{
+        height: 800px;
+    }
+    .packageText{
+        font-size: 26px;
+    }
+    .packagePhoto {
+        height: 450px;
+    }
+
+    .perfumeIntroduction{
+        height: 800px;
+    }
+    .perfumeText{
+        font-size: 26px;
+    }
+    .perfumePhoto {
+        height: 450px;
+    }
+
+    /* 回頂端按鈕 */
+    .toTopBtn{
+        width: 70px;
+        height: 70px;
+        font-size: 36px;
+    }
+
+    /* 底部 */
+    .footer{
+        height: 320px;
+        padding: 30px 35px 0;
+        font-size: 24px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+     /* top */
+     .navbar{
+        font-size: 22px;
+    }
+    .navbar .dropdown-item{
+        font-size: 20px;
+    }
+    .navbar-brand img {
+        width: 150px;
+    }
+    .navbar-toggler {
+        padding: 8px 10px;
+        font-size: 30px;
+    }
+    .banner {
+        height: 148px;
+    }
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 3px;
+        position: relative;
+    }
+    
+  
+    /* 介紹  */
+    .preface {
+        height: 550px;
+        font-size: 30px;
+    }
+    .preface01{
+        left: 25px;
+        top: 200px;
+    }
+    .preface02{
+        left: 35px;
+        top: 280px;
+    }
+    .preface03{
+        right: 20px;
+        top: 380px;
+    }
+
+    .productIntroduction{
+        height: 700px;
+    }
+    .productText{
+        font-size: 20px;
+    }
+    .productPhoto {
+        height: 300px;
+    }
+
+    .logoIntroduction{
+        height: 700px;
+    }
+    .logoText{
+        font-size: 20px;
+    }
+    .logoPhoto {
+        height: 300px;
+    }
+
+    .packageIntroduction{
+        height: 700px;
+    }
+    .packageText{
+        font-size: 20px;
+    }
+    .packagePhoto {
+        height: 300px;
+    }
+
+    .perfumeIntroduction{
+        height: 700px;
+    }
+    .perfumeText{
+        font-size: 20px;
+    }
+    .perfumePhoto {
+        height: 300px;
     }
 
     /* 回頂端按鈕 */
@@ -327,29 +503,22 @@
         height: 60px;
         font-size: 32px;
     }
-
-    /* 底部 */
-    .footer{
-        height: 300px;
-        padding: 25px 30px 0;
-        font-size: 26px;
-    }
 }
 
 @media (min-width:576px) and (max-width:767.9px) {
     /* top */
     .navbar{
-        font-size: 30px;
+        font-size: 28px;
     }
     .navbar .dropdown-item {
-        font-size: 24px;
+        font-size: 22px;
     }
     .navbar-brand img {
         width: 130px;
     }
     .navbar-toggler {
         padding: 8px 10px;
-        font-size: 30px;
+        font-size: 28px;
     }
     
     .owl-theme .owl-nav.disabled+.owl-dots {
@@ -365,7 +534,7 @@
 
     .preface {
         height: 550px;
-        font-size: 32px;
+        font-size: 30px;
     }
     .preface01{
         left: 25px;
@@ -384,7 +553,7 @@
         height: 1300px;
     }
     .productText{
-        font-size: 30px;
+        font-size: 24px;
     }
     .productPhoto {
         height: 450px;
@@ -394,7 +563,7 @@
         height: 1300px;
     }
     .logoText{
-        font-size: 30px;
+        font-size: 24px;
     }
     .logoPhoto {
         height: 450px;
@@ -404,7 +573,7 @@
         height: 1300px;
     }
     .packageText{
-        font-size: 30px;
+        font-size: 24px;
     }
     .packagePhoto {
         height: 450px;
@@ -414,7 +583,7 @@
         height: 1500px;
     }
     .perfumeText{
-        font-size: 30px;
+        font-size: 24px;
     }
     .perfumePhoto {
         height: 450px;
@@ -428,11 +597,7 @@
     }
 
     /* 底部 */
-    .footer{
-        height: 300px;
-        padding: 25px 30px 0;
-        font-size: 26px;
-    }
+   
 }
 
 @media (min-width:376px) and (max-width:575.9px) {
@@ -525,19 +690,6 @@
     }
     .perfumePhoto {
         height: 250px;
-    }
-
-    /* 回頂端按鈕 */
-    .toTopBtn{
-        width: 45px;
-        height: 45px;
-    }
-
-    /* 底部 */
-    .footer{
-        height: 250px;
-        padding: 25px 30px 0;
-        font-size: 16px;
     }
 
 }
