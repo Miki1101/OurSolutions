@@ -1,3 +1,6 @@
+.article-deviation:target{
+    padding-top: 110px !important;
+}
 
 .header .menu{
     line-height: 84px;
@@ -711,7 +714,7 @@
         font-size: 20px;
     }
     .navbar-brand img {
-        width: 150px;
+        width: 200px;
     }
     .navbar-toggler {
         padding: 8px 10px;
@@ -793,17 +796,17 @@
 @media (min-width:576px) and (max-width:767.9px) {
     /* top */
     .navbar{
-        font-size: 28px;
+        font-size: 24px;
     }
     .navbar .dropdown-item {
         font-size: 22px;
     }
     .navbar-brand img {
-        width: 130px;
+        width: 180px;
     }
     .navbar-toggler {
         padding: 8px 10px;
-        font-size: 28px;
+        font-size: 26px;
     }
     
     .owl-theme .owl-nav.disabled+.owl-dots {
@@ -891,7 +894,7 @@
         font-size: 16px;
     }
     .navbar-brand img {
-        width: 80px;
+        width: 150px;
         margin-left: 10px;
     }
     .navbar-toggler {
@@ -991,7 +994,7 @@
         font-size: 14px;
     }
     .navbar-brand img {
-        width: 60px;
+        width: 110px;
         margin-left: 10px;
     }
     .navbar-toggler {
@@ -1096,7 +1099,6 @@
         font-size: 12px;
     }
     .navbar-brand img {
-        width: 40px;
         margin-left: 10px;
     }
     .navbar-toggler {
